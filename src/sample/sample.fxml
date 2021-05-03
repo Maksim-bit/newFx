@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="500" maxWidth="500" minHeight="500" minWidth="500" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <stylesheets>
+      <URL value="@/css/mainStyle.css" />
+   </stylesheets>
+   <center>
+      <Button fx:id="btnAdd" contentDisplay="CENTER" mnemonicParsing="false" onAction="#clickBtnAdd" prefHeight="100" prefWidth="200" text="Кнопка" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <opaqueInsets>
+            <Insets left="10.0" />
+         </opaqueInsets>
+         <graphic>
+            <Circle fill="#7d0404" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+         </graphic>
+      </Button>
+   </center>
+   <top>
+      <TextArea fx:id="textArea" prefHeight="100.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></TextArea>
+   </top>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</BorderPane>
